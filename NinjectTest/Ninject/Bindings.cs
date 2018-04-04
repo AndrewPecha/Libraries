@@ -1,4 +1,5 @@
 ﻿using Ninject.Modules;
+using NinjectTest.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,7 @@ namespace NinjectTest.Ninject
     {
         public override void Load()
         {
-            throw new NotImplementedException();
-            //comment
+            Bind<Entities>().To<Entities>();
         }
     }
 }
