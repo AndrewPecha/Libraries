@@ -11,6 +11,7 @@ namespace NinjectTest.Ninject
         public override void Load()
         {
             throw new NotImplementedException();
+            //comment
         }
     }
 }
